@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>图片轮播</title>
+	<link rel="stylesheet" type="text/css" href="css/imgSwitch.css">
+</head>
+<body>
+    <div class="slide" id="slide">
+    <!-- 左按钮 -->
+        <a id="left-direction" class="left" href="#">
+       	    <img src="images/direction-left.png">
+        </a>
+    <!-- 幻灯图片 -->    
+       	<img src="images/pic1.jpg" class="center" id="pic">
+    <!-- 右按钮 -->   
+        <a class="right" id="right-direction" href="#">
+       	    <img src="images/direction-right.png">
+        </a>
+        <input type="button" value="跳转" class="button" onclick="Slide1.doGo(2)">
+    </div>
+    <div class="slide" id="slide">
+    <!-- 左按钮 -->
+        <a id="left-direction1" class="left" href="#">
+            <img src="images/direction-left.png">
+        </a>
+    <!-- 幻灯图片 -->       
+        <img src="images/pic1.jpg" class="center" id="pic1">
+    <!-- 右按钮 -->   
+        <a class="right" id="right-direction1" href="#">
+            <img src="images/direction-right.png">
+        </a>
+        <input type="button" value="跳转" class="button" onclick="Slide2.doGo(2)">
+    </div>
+    
+<script type="text/javascript" src="imgSwitch.js"></script>
+</body>
+</html>
